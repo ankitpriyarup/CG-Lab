@@ -15,6 +15,7 @@ void display(void)
     DrawLineBresenham(300, 200, 700, 400);
     DrawLineBresenham(400, 200, 500, 450);
     DrawCircleMidPoint(340, 240, 50);
+    DrawEllipseMidPoint(150, 40, 450, 120);
     glEnd();
 
     glFlush();
